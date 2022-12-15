@@ -6,8 +6,10 @@
   "scripts": {
     "start": "ng serve",
     "start:fr": "ng serve --configuration=fr",
+    "start:zh-Hans": "ng serve --configuration=zh-Hans",
     "build": "ng build --prod",
     "build:fr": "ng build --configuration=production-fr",
+    "build:zh-Hans": "ng build --configuration=production-zh-Hans",
     "test": "ng test",
     "lint": "tslint ./src/**/*.ts -t verbose",
     "e2e": "ng e2e",
